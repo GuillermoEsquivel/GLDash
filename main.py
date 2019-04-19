@@ -1,6 +1,5 @@
 
 
-# [START gae_python37_app]
 from flask import Flask
 from flask import Flask, redirect
 import random
@@ -28,4 +27,3 @@ if __name__ == '__main__':
     # Engine, a webserver process such as Gunicorn will serve the app. This
     # can be configured by adding an `entrypoint` to app.yaml.
      app.run(host='127.0.0.1', port=8080, debug=True)
-    ##[END gae_python37_app]
