@@ -18,7 +18,8 @@ def go_to_external_url():
     'https://workbench-dashboard.uberinternal.com/session/f006aa53-1673-5600-8914-ce532b5b607d/glweekly/',
     'https://workbench-dashboard.uberinternal.com/session/c6a72d33-6365-5c47-a767-212315b94db6/glweekly/'
     ]
-    link = random.sample(links, 1)[0]
+    ##link = random.sample(links, 1)[0]
+    link = 'https://tableau-prod.uberinternal.com/t/CommOpsGlobalAI/views/GreenlightDash/I-Snapshot?iframeSizedToWindow=true&:embed=y&:render=true&:showAppBanner=false&:display_count=yes&:showVizHome=no#1'
     return redirect(link)
 
 
